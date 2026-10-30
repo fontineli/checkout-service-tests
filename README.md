@@ -132,12 +132,12 @@ if (tipoCliente == OURO)
     frete = 0;
 ```
 
-| Condição | Par que mostra influência | Resultado |
-|:--|:--|:--|
-| `regiaoValida` | (V,F) com subtotal>0 | altera cálculo do frete |
-| `subtotal>0` | (V,F) com regiao fixa | muda total de >0 para 0 |
-| `itensInvalidos` | (F,V) | gera erro |
-| `tipoCliente==OURO` | (V,F) | zera ou não zera frete |
+| Condição | Par que mostra influência | Resultado                |
+|:--|:--|:-------------------------|
+| `regiaoValida` | (V,F) com subtotal>0 | altera cálculo do frete  |
+| `subtotal>0` | (V,F) com regiao fixa | muda tot al de >0 para 0 |
+| `itensInvalidos` | (F,V) | gera erro                |
+| `tipoCliente==OURO` | (V,F) | zera ou não zera frete   |
 
 ---
 
